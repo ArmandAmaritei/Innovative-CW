@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(48, 48, 48);   
+    color: white;
+    height: 91vh;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    padding: 10px 30px;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.logoImg {
+    width: 125px;
+    height: auto;
+}
+
+.questionImg {
+    width: 25px;
+    height: auto;
+}
+
+.right {
+    height: 100%;
+    width: 100%;
+}
+
+.inputBoxContainer{
+    position: fixed;
+    bottom: 0;
+    margin-left: 32%;
+    margin-bottom: 50px;
+
+}
+
+.inputBox {
+    width: 500px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+
+}
+
+.inputBox:focus {
+    outline: rgb(48, 170, 99);
+}
+
+
+.buttonContainer {
+    height: 93.45%;    
+}
+
+.buttonImg {
+    width: 95px;
+    height: 95px;
+}
+
+.topButton {
+    background-color: rgb(98, 166, 214);
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.bottomButton {
+    background-color: rgb(48, 170, 99);
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.settingsButton {
+    background-color: black;
+    width: 50%;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+}
+
