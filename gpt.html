@@ -8,7 +8,7 @@
 </head>
 <body>
     <nav class="navigation"> 
-        <a href="./home.html">
+        <a href="./index.html">
             <img class="logoImg" src="./assets/logo.png" alt="logo"> 
         </a>
         <a href="./help.html">
@@ -41,9 +41,14 @@
         </div>
 
         <div class ="right">
+            <div class="textContainer">
+                <h1 class="text">How can I help you today?</h1>
+                <div class="displayTextValue" id="dispayText"></div>
+            </div>
             <div class="inputBoxContainer">
-                <input type="text" name="chatbox" class="inputBox" placeholder="Start writing here...">
+                <textarea id="idInputBox"  class="inputBox" placeholder="Start writing here..."></textarea>
             </div>    
-        </div>    
+        </div>
+        <script src="script.js"></script>    
 </body>
 </html>
